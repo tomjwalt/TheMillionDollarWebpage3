@@ -1,0 +1,12 @@
+/* styles.css */
+h1 {
+    text-align: center;
+    color: green;
+}
+
+div {
+    display:flex;
+    flex: row;
+    background-color: yellow;
+    color: green;
+}

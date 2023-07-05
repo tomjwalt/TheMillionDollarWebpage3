@@ -4,9 +4,26 @@ h1 {
     color: green;
 }
 
+.container {
+    display: flex;
+    border: 5px green;
+    justify-content: center;
+    display: flex 100 100 0;
+}
+
+
 div {
-    display:flex;
-    flex: row;
+    display: flex;
+    justify-content: center;
     background-color: yellow;
     color: green;
+    border:10px
+    padding:10px;
+    height: 30px;
+    display:inline-block;
+    font-size: x-large;
+    text-align: center;
+    flex-direction: row;
+    width: 400px
+
 }
